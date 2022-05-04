@@ -40,3 +40,5 @@ app.listen(process.env.PORT, () => {
   connectDb();
   console.log("Server is listening on port " + process.env.PORT);
 });
+
+module.exports = app;
